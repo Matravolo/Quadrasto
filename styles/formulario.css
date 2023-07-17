@@ -1,0 +1,34 @@
+.formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--Azul-Principal2);
+    border-radius: 40px;
+}
+
+.perfil{
+    width: 80%;
+    box-shadow: 1px 0px 10px var(--Azul-Principal);
+    border-radius: 12px;
+    background-color: var(--Cor-Fundo);
+}
+
+.endereco{
+    width: 80%;
+    box-shadow: 1px 0px 10px var(--Azul-Principal);
+    border-radius: 12px;
+    background-color: var(--Cor-Fundo);
+}
+
+.tc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mensagem{
+    margin-left: 1em;
+    font-size: 12px;
+    color: var(--Vermelho);
+    display: none;
+}

@@ -1,0 +1,30 @@
+.rodape{
+    background-color: var(--Azul-Principal);
+    text-align: center;
+    padding: 0.5em;
+}
+.rodape__texto{
+    font-family: var(--Caprasimo);
+    color: var(--Dourado);
+    font-size: 24px;
+}
+
+.rodape__ancoras{
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    margin: auto;
+}
+
+.ancora{
+    text-decoration: none;
+    color: var(--Branco);
+}
+
+.alerta__envio{
+    color: var(--Vermelho);
+    text-align: center;
+    margin-top: -2em;
+    margin-bottom: 2em;
+    display: none;
+}

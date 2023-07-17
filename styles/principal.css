@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Inter:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@400;500;600;700&family=Ribeye+Marrow&display=swap');
+@import url('/styles/cabecalho.css');
+@import url('/styles/formulario.css');
+@import url('/styles/cursos.css');
+@import url('/styles/rodape.css');
+
+:root{
+    --Branco: #FFFFFF;
+    --Preto: #000000;
+    --Vermelho: #FF0000;
+    --Cor-Fundo: #EAEBF3;
+    --Azul-Principal:#323C85;
+    --Azul-Principal2:#323c852f;
+    --Dourado:#D2BA83;
+    --Caprasimo: "Caprasimo";
+    --Inter: "Inter";
+    --GrenzeGotisch: 'Grenze Gotisch';
+}
+
+body{
+    background-color: var(--Cor-Fundo) !important;
+}
+

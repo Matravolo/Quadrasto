@@ -1,0 +1,48 @@
+.cabecalho{
+    background-color: var(--Azul-Principal);
+}
+
+.simbolo{
+    font-family: var(--GrenzeGotisch);
+    display: none;
+}
+
+.cabecalho__banner{
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    font-size: 24px;
+    padding: 1em 0;
+    margin-bottom: 1em;
+}
+
+.cabecalho__imagem{
+    width: 10%;
+}
+
+.cabecalho__titulo{
+    color: var(--Dourado);
+    text-transform: uppercase;
+    font-family:var(--Caprasimo);
+    margin-top: 0.3em;
+}
+
+@media screen and (min-width:1000px) {
+    .simbolo{
+        display: block;
+        font-family: var(--GrenzeGotisch);
+        font-size: 64px;
+        margin: 0 -1em 0 1em;
+    }
+    .cabecalho{
+        display: flex;
+    }
+    .cabecalho__imagem{
+        width: 15%;
+    }
+    .cabecalho__banner{
+        margin: auto;
+        gap: 10%;
+        width: 50%;
+    }
+}
